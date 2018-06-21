@@ -197,3 +197,11 @@ config SND_PISOUND
 	select SND_RAWMIDI
 	help
 	  Say Y or M if you want to add support for Blokas Labs pisound.
+
+config SND_VERBIT_HELIUM_SOUNDCARD
+        tristate "Support for verbit helium soundcard"
+        depends on SND_BCM2708_SOC_I2S || SND_BCM2835_SOC_I2S
+        select SND_SOC_WM8731
+	select SND_SOC_WM8804
+        help
+          Say Y or M if you want to add support for verbit helium soundcard.

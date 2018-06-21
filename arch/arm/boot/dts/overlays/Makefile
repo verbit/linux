@@ -132,6 +132,7 @@ dtbo-$(CONFIG_ARCH_BCM2835) += \
 	upstream-aux-interrupt.dtbo \
 	vc4-fkms-v3d.dtbo \
 	vc4-kms-v3d.dtbo \
+	verbit-helium.dtbo \
 	vga666.dtbo \
 	w1-gpio.dtbo \
 	w1-gpio-pullup.dtbo \
